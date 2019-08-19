@@ -11,7 +11,6 @@ hardware_interface:
   joints:
     - body_rotate_joint
     - elevation_joint
-    - arm_base_joint
     - arm1_joint
     - arm2_joint
     - arm3_joint
@@ -32,3 +31,55 @@ joint_state_controller:
   publish_rate: 50
 controller_list:
   []
+arm_position_controller:
+  type: position_controllers/JointPositionController
+  joints:
+    - body_rotate_joint
+    - elevation_joint
+    - arm1_joint
+    - arm2_joint
+    - arm3_joint
+    - arm4_joint
+    - arm5_joint
+    - arm6_joint
+  gains:
+    body_rotate_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    elevation_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    arm1_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    arm2_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    arm3_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    arm4_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    arm5_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    arm6_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

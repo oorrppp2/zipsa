@@ -6,6 +6,6 @@ moveit_setup_assistant_config:
   SRDF:
     relative_path: config/living_lab_robot.srdf
   CONFIG:
-    author_name: Byeong-Kyu Ahn
-    author_email: byeongkyu@gmail.com
-    generated_timestamp: 1564471979
+    author_name: JongSuk Choi
+    author_email: cjs0818@ust.ac.kr
+    generated_timestamp: 1566091660

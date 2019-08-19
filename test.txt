@@ -1,1 +1,6 @@
-test
+* MoveIt의 setup_assistant 기능을 통해 config 셋업하기
+    * $ roslaunch moveit_setup_assistant setup_assistant.launch
+* MoveIt Rviz 실행시키기
+    * $ roslaunch living_lab_robot_moveit_config demo.launch
+* Python기반 controller 실행시켜 확인하기
+    * $ rosrun living_lab_robot_moveit_client move_group_python_interface_tutorial.py

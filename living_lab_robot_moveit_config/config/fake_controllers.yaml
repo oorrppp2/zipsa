@@ -3,10 +3,22 @@ controller_list:
     joints:
       - body_rotate_joint
       - elevation_joint
-      - arm_base_joint
       - arm1_joint
       - arm2_joint
       - arm3_joint
       - arm4_joint
       - arm5_joint
       - arm6_joint
+  - name: fake_zipsa_arm_controller
+    joints:
+      - body_rotate_joint
+      - elevation_joint
+      - arm1_joint
+      - arm2_joint
+      - arm3_joint
+      - arm4_joint
+      - arm5_joint
+      - arm6_joint
+  - name: fake_hand_controller
+    joints:
+      []
