@@ -23,7 +23,7 @@ It has only one way at this time (build from source in Catkin workspace) to inst
 
     $ cd $HOME/catkin_ws/
     $ wstool init src
-    $ wstool merge -t src ./src/living_lab_robot_v2/doc/living_lab_robot.rosinstall
+    $ wstool merge -t src ./src/zipsa/doc/living_lab_robot.rosinstall
     $ cd src
     $ wstool update
 
