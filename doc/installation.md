@@ -33,7 +33,6 @@ It has only one way at this time (build from source in Catkin workspace) to inst
     $ cd $HOME/catkin_ws/src
     $ rosdep install --from-paths . --ignore-src -r -y
     $ find -name 'requirements.txt' | xargs -L 1 sudo pip install -U -r
-    # use pip3 if there are some pip version erreors
 
 
 ### Build
