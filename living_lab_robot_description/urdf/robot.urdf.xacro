@@ -8,5 +8,10 @@
     <xacro:include filename="$(find living_lab_robot_description)/urdf/body_assy.urdf.xacro"/>
     <xacro:include filename="$(find living_lab_robot_description)/urdf/arm.urdf.xacro"/>
     <xacro:include filename="$(find living_lab_robot_description)/urdf/gripper.urdf.xacro"/>
+
+    <robotis_gripper parent="arm_link6">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </robotis_gripper>
+
     <xacro:include filename="$(find living_lab_robot_description)/urdf/head_assy.urdf.xacro"/>
 </robot>

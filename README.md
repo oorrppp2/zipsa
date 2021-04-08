@@ -8,7 +8,6 @@ ZipSa (Living Lab Robot Version2) meta-package. See the documents in [doc](./doc
 1. [Introduction](./doc/introduction.md)
 2. [Installation](./doc/installation.md)
 3. [Bringup the ZipSa](./doc/bringup.md)
-4. [Bringup the ZipSa in Simulator](./doc/bringup_gazebo.md)
 4. [Execute the Demo](./doc/execute_demo.md)
 5. [Troubleshootings](./doc/troubleshooting.md)
 
@@ -21,4 +20,4 @@ ZipSa (Living Lab Robot Version2) meta-package. See the documents in [doc](./doc
 
 ## Datasheet
 
-1. [Electronic connection](./doc/electric_connection.md)
+1. [Electronic connection](./connection_electronic.md)
