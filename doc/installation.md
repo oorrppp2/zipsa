@@ -16,14 +16,14 @@ It has only one way at this time (build from source in Catkin workspace) to inst
 ### Retrive the sources
 
     $ cd $HOME/catkin_ws/src
-    $ git clone https://github.com/cas4x/zipsa.git
+    $ git clone https://github.com/byeongkyu/living_lab_robot_v2
 
 
 ### Install Dependencies (ROS packages)
 
     $ cd $HOME/catkin_ws/
     $ wstool init src
-    $ wstool merge -t src ./src/zipsa/doc/living_lab_robot.rosinstall
+    $ wstool merge -t src ./src/living_lab_robot_v2/doc/living_lab_robot.rosinstall
     $ cd src
     $ wstool update
 

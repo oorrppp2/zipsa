@@ -1,0 +1,11 @@
+# goal
+string target_object
+string mode
+geometry_msgs/PoseStamped target_pose
+moveit_msgs/JointConstraint[] joint_constraints
+---
+# result
+bool result
+---
+# feedback
+bool is_moving
